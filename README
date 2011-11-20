@@ -1,0 +1,24 @@
+Universal Feed Generator class
+
+Genarate RSS 1.0, RSS2.0 and ATOM Feed
+
+Supported versions:
+ - RSS 1.0 (which officially obsoleted RSS 0.90)
+ - RSS 2.0 (which officially obsoleted RSS 0.91, 0.92, 0.93 and 0.94)
+ - ATOM 1.0
+
+Features:
+ - Generates RSS 1.0, RSS 2.0 and ATOM 1.0 feeds
+ - All feeds are are validated by feed validator.
+ - Supports all possible feed elements.
+ - Simple and easy to define channel and feed items
+ - Automatically converts date formats.
+ - Generates UUID for ATOM feeds.
+ - Enables usage of subtags and attributes. (example: image and encloser tags)
+ - Completely Object oriented in PHP5 class structure.
+ - Handles CDATA encoding for required tags.
+ - Nearly same code for generating all kinds of feed
+
+@package     UniversalFeedGenerator
+@author      Komarov Maksim <komarov4sol@gmail.com>
+@link        http://www.4sol.ru/
