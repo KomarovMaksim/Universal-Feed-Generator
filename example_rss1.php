@@ -39,5 +39,5 @@
   
   //OK. Everything is done. Now genarate the feed.
   $TestFeed->genarateFeed();
-  
+
 ?>
