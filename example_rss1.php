@@ -11,7 +11,7 @@
   $TestFeed->setDescription('This is test of creating a RSS 1.0 feed by Universal Feed Writer');
    
   //It's important for RSS 1.0 
-  $TestFeed->setChannelAbout('http://www.4sol.ru/rss');
+  $TestFeed->setChannelAbout('http://www.4sol.pro/rss');
   
   //Adding a feed. Genarally this protion will be in a loop and add all feeds.
   
