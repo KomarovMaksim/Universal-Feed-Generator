@@ -5,7 +5,7 @@
 	//Setting the channel elements
 	//Use wrapper functions for common elements
 	$TestFeed->setTitle('Testing the RSS writer class');
-	$TestFeed->setLink('http://www.4sol.ru/rss');
+	$TestFeed->setLink('http://www.4sol.pro/rss');
 	//For other channel elements, use setChannelElement() function
 	$TestFeed->setChannelElement('updated', date(DATE_ATOM , time()));
 	$TestFeed->setChannelElement('author', array('name'=>'Komarov Maksim <komarov4sol@gmail.com>'));
