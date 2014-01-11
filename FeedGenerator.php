@@ -23,7 +23,7 @@
 *
 * @package     UniversalFeedGenerator
 * @author      Komarov Maksim <komarov4sol@gmail.com>
-* @link        http://www.4sol.ru/
+* @link        http://www.4sol.pro/
 */
 define('RSS1', 'RSS 1.0', true); // RSS 1.0 (which officially obsoleted RSS 0.90)
 define('RSS2', 'RSS 2.0', true); // RSS 2.0 (which officially obsoleted RSS 0.91, 0.92, 0.93 and 0.94)
