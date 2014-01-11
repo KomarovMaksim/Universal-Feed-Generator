@@ -7,7 +7,7 @@
   //Use wrapper functions for common elements
   //For other optional channel elements, use setChannelElement() function
   $TestFeed->setTitle('Testing the RSS writer class');
-  $TestFeed->setLink('http://www.4sol.ru/rss');
+  $TestFeed->setLink('http://www.4sol.pro/rss');
   $TestFeed->setDescription('This is test of creating a RSS 1.0 feed by Universal Feed Writer');
    
   //It's important for RSS 1.0 
