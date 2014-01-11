@@ -6,11 +6,11 @@
   //Setting the channel elements
   //Use wrapper functions for common channel elements
   $TestFeed->setTitle('Testing & Checking the RSS writer class');
-  $TestFeed->setLink('http://www.4sol.ru/rss');
+  $TestFeed->setLink('http://www.4sol.pro/rss');
   $TestFeed->setDescription('This is test of creating a RSS 2.0 feed Universal Generator class');
   
   //Image title and link must match with the 'title' and 'link' channel elements for RSS 2.0
-  $TestFeed->setImage('Testing the RSS writer class','http://www.4sol.ru/rss','http://www.4sol.ru/images/logo.gif');
+  $TestFeed->setImage('Testing the RSS writer class','http://www.4sol.pro/rss','http://www.4sol.pro/images/logo.gif');
   
   //Use core setChannelElement() function for other optional channels
   $TestFeed->setChannelElement('language', 'ru-RU');
